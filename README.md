@@ -27,6 +27,10 @@ CODING-TEST/
   - cpp : c++
   - py : python
 
+### 깃 컨벤션
+
+문제 번호 : 문제 제목 (문제 레벨)
+
 ### 푼 문제 정리
 
   **binary search (이분 탐색)**
