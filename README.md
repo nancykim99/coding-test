@@ -8,6 +8,7 @@
 ### 파일 구조
 ```markdown
 CODING-TEST/
+├── bfs/ # 너비 우선 탐색
 ├── binary search/ # 이분 탐색
 ├── implementation/ # 구현
 └── README.md
@@ -32,6 +33,10 @@ CODING-TEST/
 문제 번호 : 문제 제목 (문제 레벨)
 
 ### 푼 문제 정리
+
+  **bfs (너비 우선 탐색)**
+  <br>
+  BOJ2589 : 보물섬 (G5 / cpp)
 
   **binary search (이분 탐색)**
   <br>
