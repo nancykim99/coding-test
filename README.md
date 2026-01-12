@@ -44,5 +44,6 @@ CODING-TEST/
 
   **implementation (구현)**
   <br>
-  BOJ26150 : Identify, Sort, Index, Solve (S5 / cpp, py)
+  BOJ26150 : Identify, Sort, Index, Solve (S5 / cpp, py) <br>
+  BOJ10773 : 제로 (S4 / cpp) <br>
 
