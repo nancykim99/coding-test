@@ -10,6 +10,7 @@
 CODING-TEST/
 ├── bfs/ # 너비 우선 탐색
 ├── binary search/ # 이분 탐색
+├── dp/ # 동적 계획법
 ├── implementation/ # 구현
 └── README.md
 ```
@@ -41,6 +42,10 @@ CODING-TEST/
   **binary search (이분 탐색)**
   <br>
   BOJ2792 : 보석상자 (S1 / py)
+
+  **dp (동적 계획법)**
+  <br>
+  BOJ9465 : 스티커 (S1 / cpp)
 
   **implementation (구현)**
   <br>
