@@ -6,7 +6,7 @@ BOJ10026 : 적록색약 (G5)
 
 #include <iostream>
 #include <vector>
-#include <deque>
+#include <queue>
 
 using namespace std;
 
@@ -21,6 +21,13 @@ int main() {
             area[i][j] = m;
         }
     }
+    vector<vector<int>> visited;
+
+}
+
+int bfs(int i; int j;) {
+    queue<int> q;
+    q.push()
 }
 
 int bfs() {
