@@ -1,7 +1,7 @@
 /*
 BOJ10026 : 적록색약 (G5)
 
-해결 방법 : 
+해결 방법 : sdsds
 */
 
 #include <iostream>
