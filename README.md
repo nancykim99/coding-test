@@ -12,7 +12,6 @@ CODING-TEST/
 ├── binary search/ # 이분 탐색
 ├── dp/ # 동적 계획법
 ├── implementation/ # 구현
-
 └── README.md
 ```
 
