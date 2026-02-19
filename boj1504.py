@@ -3,7 +3,8 @@ BOJ1504 : 특정한 최단 경로 (G4)
 
 해결 방법 : 
 다익스트라로 1번 노드에서 n번 노드까지 최단 경로 구하기
-v1과 v2를 지났는지 확인하기
+v1, v2에서도 최단 경로 구하기
+v1-v2로 가는 경우와 v2-v1으로 가는 경우 중 더 짧은 경로 구하기
 '''
 import sys, heapq
 input = sys.stdin.readline
@@ -36,8 +37,15 @@ def dijkstra(graph, start, n):
     return dist
 
 dist = dijkstra(graph, 1, n)
+distv1 = dijkstra(graph, v1, n)
+distv2 = dijkstra(graph, v2, n)
 
-if dist[v1] != 0 and dist[v2] != 0:
-    print(dist[n])
-else:
+ans1 = dist[v1] + distv1[v2] + distv2[n]
+ans2 = dist[v2] + distv2[v1] + distv1[n]
+
+ans = min(ans1, ans2)
+
+if ans >= inf:
     print(-1)
+else:
+    print(ans)
