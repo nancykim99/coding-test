@@ -3,8 +3,7 @@ BOJ1874 : 스택 수열 (S2)
 
 해결 방법 : 
 현재 숫자와 타겟 숫자를 비교하면서 push와 pop을 정함
-push 시, 현재 숫자와 타겟 숫자의 차를 +
-pop은 그대로 진행
+타겟 숫자까지 push, 타겟과 stack[-1]이 같은 경우 pop, 아닌 경우 NO
 '''
 import sys
 input = sys.stdin.readline
